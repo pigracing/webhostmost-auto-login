@@ -1,0 +1,13 @@
+{
+  "name": "A",
+  "version": "1.0.0",
+  "description": "B",
+  "main": "login.js",
+  "scripts": {
+    "start": "node login.js"
+  },
+  "dependencies": {
+    "playwright": "latest",
+    "axios": "latest"
+  }
+}
