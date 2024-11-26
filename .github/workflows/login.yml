@@ -1,7 +1,7 @@
 name: Login to webhostmost
 on:
   schedule:
-    - cron: "0 0 1,15 * *"  # 每月1号运行一次
+    - cron: "0 0 * * 3"  # 每月1号运行一次
   workflow_dispatch:
   
 jobs:
