@@ -24,9 +24,10 @@ jobs:
           keep_minimum_runs: 2
           
       - name: Set up WARP
-        uses: fscarmen/warp-on-actions@v1.2
+        uses: fscarmen/warp-on-actions@v1.3
         with:
-          stack: dual   # Optional. Support [ ipv4, ipv6, dual ]. Default is dual.
+           stack: dual        # Optional. Support [ ipv4, ipv6, dual ]. Default is dual.
+           mode: wireguard    # Optional. Support [ wireguard, client ]. Default is wireguard.
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
